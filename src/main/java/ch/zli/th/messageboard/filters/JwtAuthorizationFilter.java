@@ -1,4 +1,4 @@
-package ch.zli.th.user.filters;
+package ch.zli.th.messageboard.filters;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;

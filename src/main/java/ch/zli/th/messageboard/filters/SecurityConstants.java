@@ -1,4 +1,5 @@
-package ch.zli.th.user.filters;
+/*
+package ch.zli.th.messageboard.filters;
 
 public final class SecurityConstants {
 
@@ -18,3 +19,4 @@ public final class SecurityConstants {
         throw new IllegalStateException("Cannot create instance of static util class");
     }
 }
+*/

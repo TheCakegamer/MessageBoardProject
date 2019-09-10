@@ -1,4 +1,4 @@
-package ch.zli.th.user;
+package ch.zli.th.messageboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

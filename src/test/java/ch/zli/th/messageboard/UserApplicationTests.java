@@ -1,4 +1,4 @@
-package ch.zli.th.user;
+package ch.zli.th.messageboard;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

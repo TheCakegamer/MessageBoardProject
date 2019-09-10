@@ -1,19 +1,23 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/logincss.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/logincss.css">
+    <title>Login</title>
+    <meta charset="UTF-8">
 </head>
 <div class="wrapper fadeInDown">
     <h1 style="color: #999792; align-content: center; text-shadow: 2px 2px 3px #cccccc;">The Board</h1>
     <div id="formContent">
         <!-- Login Form -->
-        <form>
+        <form th:action="@{/page/login}" style="padding-top: 50px" method="Post" >
             <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
             <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
             <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
 
         <div id="formFooter">
-            <a class="underlineHover" href="#">Not registered yet?</a>
+            <a class="underlineHover" href="/register">Not registered yet?</a>
         </div>
 
     </div>
