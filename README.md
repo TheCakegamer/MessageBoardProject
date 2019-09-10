@@ -10,3 +10,5 @@ he can also clear the whole board altogether.</p>
 <p>Due to time constraints none of the listed things above were able to be implemented</p>
 <p>The login system is pretty broken and it doesn't really work at all. Registering is work in progress but at the time of writing this it doesn't work yet.</p>
 <p>The basic SQL tables are made, you can find them and import them through <code>theboard.sql</code>.</p>
+<p>You can access the most usable part of it by running it on your local mahchine and typing in the URL
+<code>http://localhost:8080/login</code> to get to the login-page.</p>
